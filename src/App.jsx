@@ -6,9 +6,9 @@ import Modal from './componentes/Modal'
 
 
   let tareasDefault = [
-    {    titulo: "Limpiar cocina",categoria: "Hogar",estado:"Pendiente",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Alta",selecionado: false},
-    {    titulo: "Hacer tarea",categoria: "Colegio",estado:"En proceso",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Media",selecionado: false},
-    {    titulo: "Leer libro",categoria: "Colegio",estado:"Finalizado",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Baja",selecionado: false},
+    {    titulo: "Limpiar cocina",descripcion:`Completar los ejercicios de matemáticas del cuaderno, páginas 32 a 35.Resolver los problemas de álgebra y revisar las respuestas con la guía.Preparar un resumen escrito de al menos media página para entregar mañana.` ,categoria: "Hogar",estado:"Pendiente",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Alta",selecionado: false},
+    {    titulo: "Hacer tarea",descripcion:"Lavar todos los platos y vasos que estén en la pileta.Pasar un trapo húmedo con desinfectante por la mesada y la mesa.Barrer el piso y, si es necesario, pasar el trapo con agua y detergente." ,categoria:"Colegio",estado:"En proceso",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Media",selecionado: false},
+    {    titulo: "Leer libro",descripcion:"Leer el libro Cien años de soledad de Gabriel García Márquez.Avanzar desde la página 45 hasta la página 70.Tomar notas de los personajes principales que aparecen en ese tramo." ,categoria: "Colegio",estado:"Finalizado",FechaCreacion: "03/03/2026",FechaVencimiento: "05-05-2026",prioridad: "Baja",selecionado: false},
 
   ]
 
